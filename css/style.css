@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -441,26 +448,68 @@ th {
 
 
 
-.top-navigation {
-  background-color: #fff;
-  position: fixed;
-  width: 100;
-  border-bottom: 1px solid #DDD;
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
 }
 
+.top-navigation {
+    
+    height: 4.2em;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+}
 
 .top-navigation > .content {
-  height: 4.2em;
+
+  height: 5em;
+  padding: auto;
 }
 
 .logo {
   width: 1.7em;
-  margin-top: .62em;
-  margin-right: 15em;
-  margin-left: 3em;
+ 
+  margin-top: .5em;
+  margin-right: 13em;
+  margin-left: 18em;
   
   
 }
-div {
-    border: 1px solid Chocolate;
+.links {
+
+  float: right;
+  padding-right: 20em;
+  margin-top: 1.5em;
+  color: #838994;
+
+}
+.links > li {
+  display: inline;
+  margin-right: .3em;
+  margin-left: .8em;
+  
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+.top-navigation .links > li:hover {
+  cursor: pointer;
+  color: #333333;
+}
+ 
+section.introduction {
+  background-image: url(http://i.imgur.com/ojgVWms.jpg);
+  background-position: 0 bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35em;
+
+
 }
