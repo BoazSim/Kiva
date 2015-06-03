@@ -425,3 +425,42 @@ td,
 th {
   padding: 0;
 }
+
+
+
+
+
+
+
+//*SEPARATION BARRIER*//
+
+
+
+
+
+
+
+
+.top-navigation {
+  background-color: #fff;
+  position: fixed;
+  width: 100;
+  border-bottom: 1px solid #DDD;
+}
+
+
+.top-navigation > .content {
+  height: 4.2em;
+}
+
+.logo {
+  width: 1.7em;
+  margin-top: .62em;
+  margin-right: 15em;
+  margin-left: 3em;
+  
+  
+}
+div {
+    border: 1px solid Chocolate;
+}
