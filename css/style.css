@@ -466,9 +466,15 @@ th {
 }
 
 .top-navigation > .content {
-
   height: 5em;
   padding: auto;
+}
+
+.top-navigation > .content.embedlogo {
+  background-image: url(http://i.imgur.com/nPBFEV1.png);
+  background-repeat: no-repeat;
+  background-size: 27px 41px;
+  background-position: 5em 0.5em;
 }
 
 .logo {
@@ -476,9 +482,8 @@ th {
  
   margin-top: .5em;
   margin-left: 5em;
-  
-  
 }
+
 .links {
 
   float: right;
